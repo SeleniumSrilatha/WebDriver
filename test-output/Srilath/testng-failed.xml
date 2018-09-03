@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Srilath]">
+  <test name="vasu(failed)">
+    <classes>
+      <class name="com.vasu.testng.FirstTest">
+        <methods>
+          <include name="add"/>
+        </methods>
+      </class> <!-- com.vasu.testng.FirstTest -->
+      <class name="com.vasu.testng.AdminLoginTest">
+        <methods>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- com.vasu.testng.AdminLoginTest -->
+      <class name="com.vasu.testng.MultipleTest">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appLaunch"/>
+          <include name="appClose"/>
+        </methods>
+      </class> <!-- com.vasu.testng.MultipleTest -->
+      <class name="com.vasu.testng.Annotations">
+        <methods>
+          <include name="testMethod"/>
+          <include name="testMethod1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.vasu.testng.Annotations -->
+      <class name="com.vasu.testng.BeforeAndAfter">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.vasu.testng.BeforeAndAfter -->
+    </classes>
+  </test> <!-- vasu(failed) -->
+</suite> <!-- Failed suite [Srilath] -->

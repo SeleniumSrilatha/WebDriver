@@ -1,0 +1,12 @@
+
+<suite name="Srilath">
+  <test name="vasu">
+    <classes>
+      <class name="com.vasu.testng.AdminLoginTest"/>
+       <class name="com.vasu.testng.Annotations"/>
+      <class name="com.vasu.testng.BeforeAndAfter"/>
+      <class name="com.vasu.testng.FirstTest"/>
+      <class name="com.vasu.testng.MultipleTest"/>
+  </classes>
+  </test> 
+</suite> 

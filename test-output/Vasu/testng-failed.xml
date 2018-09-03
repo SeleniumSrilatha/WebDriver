@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vasu]">
+  <test name="Sri(failed)">
+    <classes>
+      <class name="com.vasu.testng.AddEmp">
+        <methods>
+          <include name="appLogout"/>
+          <include name="appLogin"/>
+          <include name="appClose"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.vasu.testng.AddEmp -->
+      <class name="com.vasu.testng.EmpList">
+        <methods>
+          <include name="empList"/>
+        </methods>
+      </class> <!-- com.vasu.testng.EmpList -->
+    </classes>
+  </test> <!-- Sri(failed) -->
+</suite> <!-- Failed suite [Vasu] -->
